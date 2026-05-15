@@ -11,6 +11,13 @@ import type {
 const API_BASE = import.meta.env.VITE_API_BASE ?? "";
 const DEMO_MODE = !API_BASE && import.meta.env.PROD && window.location.hostname.endsWith("github.io");
 const DEMO_BASE = `${import.meta.env.BASE_URL}demo`;
+const DEMO_STRUCTURE_BY_SMILES: Record<string, string> = {
+  "[16*]c1ccccc1": "frag_f9875edcde5bb1a4.svg",
+  "[6*]C(=O)O": "frag_7f8242582a24a3ae.svg",
+  "[16*]c1ccc([16*])cc1": "frag_00c7078885e6f102.svg",
+  "[5*]N(C)C": "frag_cddf509caab0ea86.svg",
+  "[1*]C(C)=O": "frag_0c9df19e3c60afcf.svg"
+};
 
 function params(query: Record<string, string | number | boolean | undefined>) {
   const search = new URLSearchParams();
@@ -35,6 +42,19 @@ function demoSvg(smiles: string) {
     <text x="120" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">static GitHub Pages preview</text>
   </svg>`;
   return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+}
+
+function demoStructureUrl(smiles: string) {
+  const fileName = DEMO_STRUCTURE_BY_SMILES[smiles];
+  return fileName ? `${DEMO_BASE}/structures/${fileName}` : demoSvg(smiles);
+}
+
+async function demoStructureMarkup(smiles: string) {
+  const fileName = DEMO_STRUCTURE_BY_SMILES[smiles];
+  if (!fileName) return decodeURIComponent(demoSvg(smiles).replace("data:image/svg+xml;charset=utf-8,", ""));
+  const response = await fetch(`${DEMO_BASE}/structures/${fileName}`);
+  if (!response.ok) throw new Error("Static fragment structure is unavailable.");
+  return response.text();
 }
 
 async function fetchDemoFragments(query: FragmentQuery): Promise<{ items: FragmentRow[]; total: number }> {
@@ -88,7 +108,7 @@ async function demoFragment(fragmentId: string): Promise<FragmentDetail> {
   if (!fragment) throw new Error("Fragment is not included in the static GitHub Pages preview.");
   return {
     ...fragment,
-    svg: decodeURIComponent(demoSvg(fragment.display_smiles).replace("data:image/svg+xml;charset=utf-8,", "")),
+    svg: await demoStructureMarkup(fragment.fragment_smiles),
     representative_molecules: [],
     property_distributions: {},
     clean_admet_summary: [
@@ -167,9 +187,11 @@ export async function fetchCleanAdmetDistribution(fragmentId: string, row: Clean
 export async function fetchFragmentAdmetComparison(fragmentA: string, fragmentB: string): Promise<FragmentAdmetComparison> {
   if (DEMO_MODE) {
     const data = await fetchDemoFragments({ fragment_like: false, page_size: 100 });
-    const fragments = data.items
-      .filter((item) => item.fragment_id === fragmentA || item.fragment_id === fragmentB)
-      .map((item) => ({ ...item, svg: decodeURIComponent(demoSvg(item.display_smiles).replace("data:image/svg+xml;charset=utf-8,", "")) }));
+    const fragments = await Promise.all(
+      data.items
+        .filter((item) => item.fragment_id === fragmentA || item.fragment_id === fragmentB)
+        .map(async (item) => ({ ...item, svg: await demoStructureMarkup(item.fragment_smiles) }))
+    );
     return { fragments, endpoints: [] };
   }
   const response = await fetch(
@@ -190,6 +212,6 @@ export async function fetchMolecule(chemblId: string): Promise<Molecule> {
 }
 
 export function fragmentSvgUrl(smiles: string) {
-  if (DEMO_MODE) return demoSvg(smiles);
+  if (DEMO_MODE) return demoStructureUrl(smiles);
   return `${API_BASE}/api/render/fragment.svg?${params({ smiles })}`;
 }

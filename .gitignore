@@ -1,0 +1,21 @@
+.DS_Store
+reports/manuscript/~$*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/.venv/
+backend/*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Generated atlas artifacts
+data/processed/*
+data/derived/*
+data/raw/chembl_prototype_*.csv
+data/raw/tdc/*.parquet
+!data/processed/.gitkeep
+!data/derived/.gitkeep

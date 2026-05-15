@@ -1,0 +1,6 @@
+chembl_id,assay_chembl_id,assay_type,assay_description,target_chembl_id,target_pref_name,target_type,organism,standard_type,standard_relation,standard_value,standard_units,pchembl_value
+CHEMBL112,CHEMBL_A_SAMPLE_1,A,Microsomal clearance assay,CHEMBL_TARGET_NONE,ADMET assay,UNCHECKED,Homo sapiens,Clearance,=,12.4,uL.min-1.mg-1,
+CHEMBL112,CHEMBL_A_SAMPLE_2,A,Plasma protein binding assay,CHEMBL_TARGET_NONE,ADMET assay,UNCHECKED,Homo sapiens,PPB,=,96.1,percent,
+CHEMBL1464,CHEMBL_A_SAMPLE_3,A,Caco-2 permeability assay,CHEMBL_TARGET_NONE,ADMET assay,UNCHECKED,Homo sapiens,Caco-2,=,8.7,10-6 cm/s,
+CHEMBL54,CHEMBL_A_SAMPLE_4,A,hERG inhibition assay,CHEMBL240,KCNH2,SINGLE PROTEIN,Homo sapiens,hERG,=,24.2,percent,
+CHEMBL25,CHEMBL_A_SAMPLE_5,A,Aqueous solubility assay,CHEMBL_TARGET_NONE,ADMET assay,UNCHECKED,Homo sapiens,Solubility,=,3.3,ug/mL,

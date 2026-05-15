@@ -1,0 +1,541 @@
+{
+  "counts": {
+    "molecules": 300,
+    "fragments": 408,
+    "molecule_fragments": 751,
+    "fragment_stats": 408,
+    "admet_measurements": 3027,
+    "fragment_admet_stats": 3760,
+    "tdc_admet_measurements": 45975,
+    "tdc_fragments": 17962,
+    "tdc_molecule_fragments": 134103,
+    "tdc_fragment_admet_stats": 30450,
+    "bootstrap_ci": 995,
+    "matched_context": 467,
+    "case_studies": 10
+  },
+  "top_fragments": [
+    {
+      "display_smiles": "[*]c1ccccc1",
+      "fragment_smiles": "[16*]c1ccccc1",
+      "parent_count": 37,
+      "admet_measurement_count": 337,
+      "mw_median": 334.4,
+      "clogp_median": 2.4,
+      "tpsa_median": 59.3,
+      "qed_median": 0.6499831586
+    },
+    {
+      "display_smiles": "[*]C(=O)O",
+      "fragment_smiles": "[6*]C(=O)O",
+      "parent_count": 29,
+      "admet_measurement_count": 219,
+      "mw_median": 351.35,
+      "clogp_median": 1.54,
+      "tpsa_median": 86.71,
+      "qed_median": 0.7304236261
+    },
+    {
+      "display_smiles": "[*]c1ccc([*])cc1",
+      "fragment_smiles": "[16*]c1ccc([16*])cc1",
+      "parent_count": 24,
+      "admet_measurement_count": 270,
+      "mw_median": 308.38,
+      "clogp_median": 2.915,
+      "tpsa_median": 58.345,
+      "qed_median": 0.7123151985
+    },
+    {
+      "display_smiles": "[*]N(C)C",
+      "fragment_smiles": "[5*]N(C)C",
+      "parent_count": 15,
+      "admet_measurement_count": 155,
+      "mw_median": 324.4,
+      "clogp_median": 3.82,
+      "tpsa_median": 28.6,
+      "qed_median": 0.7410247451
+    },
+    {
+      "display_smiles": "[*]C(C)=O",
+      "fragment_smiles": "[1*]C(C)=O",
+      "parent_count": 14,
+      "admet_measurement_count": 197,
+      "mw_median": 227.265,
+      "clogp_median": 1.755,
+      "tpsa_median": 65.0,
+      "qed_median": 0.6538251646
+    },
+    {
+      "display_smiles": "[*]C(C)C",
+      "fragment_smiles": "[4*]C(C)C",
+      "parent_count": 12,
+      "admet_measurement_count": 166,
+      "mw_median": 266.34,
+      "clogp_median": 1.95,
+      "tpsa_median": 58.25,
+      "qed_median": 0.7053420065
+    },
+    {
+      "display_smiles": "[*]CC(O)C[*]",
+      "fragment_smiles": "[4*]CC(O)C[4*]",
+      "parent_count": 10,
+      "admet_measurement_count": 175,
+      "mw_median": 266.855,
+      "clogp_median": 1.95,
+      "tpsa_median": 63.935,
+      "qed_median": 0.6837854234
+    },
+    {
+      "display_smiles": "[*]S(=O)(=O)c1ccc(N)cc1",
+      "fragment_smiles": "[12*]S(=O)(=O)c1ccc(N)cc1",
+      "parent_count": 9,
+      "admet_measurement_count": 101,
+      "mw_median": 264.31,
+      "clogp_median": 1.37,
+      "tpsa_median": 97.97,
+      "qed_median": 0.8047367066
+    },
+    {
+      "display_smiles": "[*]CCC[*]",
+      "fragment_smiles": "[4*]CCC[4*]",
+      "parent_count": 9,
+      "admet_measurement_count": 114,
+      "mw_median": 318.87,
+      "clogp_median": 4.53,
+      "tpsa_median": 6.48,
+      "qed_median": 0.7918053413
+    },
+    {
+      "display_smiles": "[*]C1CC1",
+      "fragment_smiles": "[15*]C1CC1",
+      "parent_count": 8,
+      "admet_measurement_count": 61,
+      "mw_median": 350.405,
+      "clogp_median": 2.13,
+      "tpsa_median": 74.57,
+      "qed_median": 0.851957023
+    }
+  ],
+  "clean_endpoint_counts": [
+    {
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "fragment_endpoint_count": 5986,
+      "measurement_count": 55377.0,
+      "median_of_fragment_medians": 1.0
+    },
+    {
+      "standard_type": "Solubility",
+      "standard_units": "log mol/L",
+      "fragment_endpoint_count": 6478,
+      "measurement_count": 17641.0,
+      "median_of_fragment_medians": -2.57925
+    },
+    {
+      "standard_type": "LD50",
+      "standard_units": "log(1/mol/kg)",
+      "fragment_endpoint_count": 4867,
+      "measurement_count": 14652.0,
+      "median_of_fragment_medians": 2.393
+    },
+    {
+      "standard_type": "LogD",
+      "standard_units": "logD",
+      "fragment_endpoint_count": 2598,
+      "measurement_count": 14290.0,
+      "median_of_fragment_medians": 2.32
+    },
+    {
+      "standard_type": "Papp",
+      "standard_units": "binary class",
+      "fragment_endpoint_count": 1676,
+      "measurement_count": 7371.0,
+      "median_of_fragment_medians": 1.0
+    },
+    {
+      "standard_type": "PPB",
+      "standard_units": "%",
+      "fragment_endpoint_count": 1404,
+      "measurement_count": 5772.0,
+      "median_of_fragment_medians": 95.43
+    },
+    {
+      "standard_type": "Papp",
+      "standard_units": "log Papp",
+      "fragment_endpoint_count": 1017,
+      "measurement_count": 4141.0,
+      "median_of_fragment_medians": -5.24478695
+    },
+    {
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "fragment_endpoint_count": 990,
+      "measurement_count": 3984.0,
+      "median_of_fragment_medians": 15.82
+    },
+    {
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "fragment_endpoint_count": 1080,
+      "measurement_count": 3630.0,
+      "median_of_fragment_medians": 20.42
+    },
+    {
+      "standard_type": "VDss",
+      "standard_units": "L/kg",
+      "fragment_endpoint_count": 1538,
+      "measurement_count": 3530.0,
+      "median_of_fragment_medians": 0.85
+    },
+    {
+      "standard_type": "Absorption",
+      "standard_units": "binary class",
+      "fragment_endpoint_count": 1244,
+      "measurement_count": 3236.0,
+      "median_of_fragment_medians": 1.0
+    },
+    {
+      "standard_type": "Half-life",
+      "standard_units": "hr",
+      "fragment_endpoint_count": 914,
+      "measurement_count": 1953.0,
+      "median_of_fragment_medians": 4.7
+    }
+  ],
+  "bootstrap_examples": [
+    {
+      "display_smiles": "[*]c1ccc([*])cc1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 2429,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]c1ccccc1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 2114,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]C(F)(F)F",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 1656,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]N1CCC([*])CC1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 1498,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]c1ccccc1",
+      "standard_type": "Solubility",
+      "standard_units": "log mol/L",
+      "measurement_count": 1003,
+      "median": -3.0263435366,
+      "ci_low": -3.2052,
+      "ci_high": -2.81475,
+      "ci_width": 0.39045
+    },
+    {
+      "display_smiles": "[*]N1CCN([*])CC1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 950,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]CCC[*]",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "measurement_count": 869,
+      "median": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "ci_width": 0.0
+    },
+    {
+      "display_smiles": "[*]c1ccccc1",
+      "standard_type": "LD50",
+      "standard_units": "log(1/mol/kg)",
+      "measurement_count": 861,
+      "median": 2.356,
+      "ci_low": 2.269,
+      "ci_high": 2.402,
+      "ci_width": 0.133
+    }
+  ],
+  "matched_examples": [
+    {
+      "display_smiles": "[*]C(=O)C[*]",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 48,
+      "case_median": 70.565,
+      "control_median": 18.025,
+      "favorable_median_delta": -40.91,
+      "match_distance_median": 0.5604149409,
+      "sign_test_pvalue": 2.99306e-05
+    },
+    {
+      "display_smiles": "[*]N1CCC([*])CC1",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 155,
+      "case_median": 6.0,
+      "control_median": 32.0,
+      "favorable_median_delta": 17.42,
+      "match_distance_median": 0.9564138241,
+      "sign_test_pvalue": 0.0
+    },
+    {
+      "display_smiles": "[*]N1CCN([*])CC1",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 41,
+      "case_median": 50.5,
+      "control_median": 11.22,
+      "favorable_median_delta": -14.78,
+      "match_distance_median": 0.7617278335,
+      "sign_test_pvalue": 0.0546639359
+    },
+    {
+      "display_smiles": "[*]N1CCC([*])CC1",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 54,
+      "case_median": 7.41,
+      "control_median": 38.405,
+      "favorable_median_delta": 14.605,
+      "match_distance_median": 0.5967530284,
+      "sign_test_pvalue": 0.0001343327
+    },
+    {
+      "display_smiles": "[*]c1ccccc1",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 228,
+      "case_median": 41.25,
+      "control_median": 16.79,
+      "favorable_median_delta": -10.645,
+      "match_distance_median": 0.5290953839,
+      "sign_test_pvalue": 0.0017058488
+    },
+    {
+      "display_smiles": "[*]c1ccc([*])cc1",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 132,
+      "case_median": 15.745,
+      "control_median": 27.0,
+      "favorable_median_delta": 6.43,
+      "match_distance_median": 0.5472036219,
+      "sign_test_pvalue": 0.0082575701
+    },
+    {
+      "display_smiles": "[*]c1ccc(F)cc1",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 43,
+      "case_median": 10.47,
+      "control_median": 19.5,
+      "favorable_median_delta": 5.96,
+      "match_distance_median": 0.4174318734,
+      "sign_test_pvalue": 0.3366683676
+    },
+    {
+      "display_smiles": "[*]C(F)(F)F",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 50,
+      "case_median": 15.315,
+      "control_median": 22.275,
+      "favorable_median_delta": 5.88,
+      "match_distance_median": 0.4288900522,
+      "sign_test_pvalue": 0.030382822
+    },
+    {
+      "display_smiles": "[*]c1ccc(Cl)c(Cl)c1",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 78,
+      "case_median": 4.0,
+      "control_median": 13.75,
+      "favorable_median_delta": 5.565,
+      "match_distance_median": 0.6457181726,
+      "sign_test_pvalue": 0.0001570523
+    },
+    {
+      "display_smiles": "[*]C(=O)C[*]",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 62,
+      "case_median": 15.5,
+      "control_median": 28.0,
+      "favorable_median_delta": 3.375,
+      "match_distance_median": 0.7752372243,
+      "sign_test_pvalue": 0.1415788634
+    }
+  ],
+  "case_studies": [
+    {
+      "display_smiles": "[*]N1CCC([*])CC1",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 155,
+      "case_median": 6.0,
+      "control_median": 32.0,
+      "favorable_median_delta": 17.42,
+      "ci_low": 3.7375,
+      "ci_high": 8.0,
+      "case_direction": "favorable association"
+    },
+    {
+      "display_smiles": "[*]c1ccc([*])cc1",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 132,
+      "case_median": 15.745,
+      "control_median": 27.0,
+      "favorable_median_delta": 6.43,
+      "ci_low": 12.9085,
+      "ci_high": 19.5,
+      "case_direction": "favorable association"
+    },
+    {
+      "display_smiles": "[*]N1CCN([*])C(=O)C1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "tdc_task": "herg_karim",
+      "n_pairs": 131,
+      "case_median": 1.0,
+      "control_median": 0.0,
+      "favorable_median_delta": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0,
+      "case_direction": "favorable association"
+    },
+    {
+      "display_smiles": "[*]N(C)C",
+      "standard_type": "Half-life",
+      "standard_units": "hr",
+      "tdc_task": "half_life_obach",
+      "n_pairs": 53,
+      "case_median": 9.3,
+      "control_median": 7.0,
+      "favorable_median_delta": 1.0,
+      "ci_low": 5.0,
+      "ci_high": 14.0,
+      "case_direction": "favorable association"
+    },
+    {
+      "display_smiles": "[*]C(F)(F)F",
+      "standard_type": "LD50",
+      "standard_units": "log(1/mol/kg)",
+      "tdc_task": "ld50_zhu",
+      "n_pairs": 229,
+      "case_median": 3.66,
+      "control_median": 2.49,
+      "favorable_median_delta": 0.905,
+      "ci_low": 3.515,
+      "ci_high": 3.86,
+      "case_direction": "favorable association"
+    },
+    {
+      "display_smiles": "[*]C(=O)C[*]",
+      "standard_type": "CL",
+      "standard_units": "uL/min/10^6 cells",
+      "tdc_task": "clearance_hepatocyte_az",
+      "n_pairs": 48,
+      "case_median": 70.565,
+      "control_median": 18.025,
+      "favorable_median_delta": -40.91,
+      "ci_low": 57.570875,
+      "ci_high": 95.5,
+      "case_direction": "unfavorable association"
+    },
+    {
+      "display_smiles": "[*]N1CCN([*])CC1",
+      "standard_type": "CL",
+      "standard_units": "mL/min/g",
+      "tdc_task": "clearance_microsome_az",
+      "n_pairs": 41,
+      "case_median": 50.5,
+      "control_median": 11.22,
+      "favorable_median_delta": -14.78,
+      "ci_low": 17.745,
+      "ci_high": 82.027875,
+      "case_direction": "unfavorable association"
+    },
+    {
+      "display_smiles": "[*]C1CC1",
+      "standard_type": "Solubility",
+      "standard_units": "log mol/L",
+      "tdc_task": "solubility_aqsoldb",
+      "n_pairs": 41,
+      "case_median": -4.05,
+      "control_median": -3.13,
+      "favorable_median_delta": -1.0107,
+      "ci_low": -4.59,
+      "ci_high": -3.5185,
+      "case_direction": "unfavorable association"
+    },
+    {
+      "display_smiles": "[*]c1c[nH]c([*])n1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "tdc_task": "herg_karim",
+      "n_pairs": 132,
+      "case_median": 0.0,
+      "control_median": 1.0,
+      "favorable_median_delta": -1.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "case_direction": "unfavorable association"
+    },
+    {
+      "display_smiles": "[*]c1ccc([N+](=O)[O-])cc1",
+      "standard_type": "hERG",
+      "standard_units": "safety class",
+      "tdc_task": "herg_karim",
+      "n_pairs": 47,
+      "case_median": 0.0,
+      "control_median": 1.0,
+      "favorable_median_delta": -1.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "case_direction": "unfavorable association"
+    }
+  ]
+}

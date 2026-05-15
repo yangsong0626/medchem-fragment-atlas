@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <rect width="1200" height="620" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 2. Prototype Atlas Summary</text>
+<text x="55" y="154" class="label" text-anchor="start" >Parent molecules</text>
+<rect x="290" y="120" width="61.39222177087347" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="365.39222177087345" y="154" class="label" text-anchor="start" >300</text>
+<text x="55" y="240" class="label" text-anchor="start" >Unique fragments</text>
+<rect x="290" y="206" width="71.59501837272752" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="375.5950183727275" y="240" class="label" text-anchor="start" >408</text>
+<text x="55" y="326" class="label" text-anchor="start" >Molecule-fragment maps</text>
+<rect x="290" y="292" width="97.13431723421348" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="401.1343172342135" y="326" class="label" text-anchor="start" >751</text>
+<text x="55" y="412" class="label" text-anchor="start" >Raw ChEMBL ADMET rows</text>
+<rect x="290" y="378" width="195.01092118160426" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="499.01092118160426" y="412" class="label" text-anchor="start" >3,027</text>
+<text x="55" y="498" class="label" text-anchor="start" >Clean TDC ADMET rows</text>
+<rect x="290" y="464" width="760.0" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="1064.0" y="498" class="label" text-anchor="start" >45,975</text>
+<text x="55" y="584" class="label" text-anchor="start" >Clean TDC endpoint rollups</text>
+<rect x="290" y="550" width="618.5094960769457" height="54" rx="4" fill="#0f766e" stroke="none" />
+<text x="922.5094960769457" y="584" class="label" text-anchor="start" >30,450</text>
+<text x="55" y="470" class="subtitle" text-anchor="start" >Fragment heavy atom count distribution</text>
+<rect x="55" y="450.5" width="20" height="49.5" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="65" y="518" class="axis" text-anchor="middle" >3</text>
+<rect x="89" y="450.5" width="20" height="49.5" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="123" y="450.5" width="20" height="49.5" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="133" y="518" class="axis" text-anchor="middle" >5</text>
+<rect x="157" y="425.0" width="20" height="75.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="191" y="434.0" width="20" height="66.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="201" y="518" class="axis" text-anchor="middle" >7</text>
+<rect x="225" y="452.0" width="20" height="48.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="259" y="452.0" width="20" height="48.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="269" y="518" class="axis" text-anchor="middle" >9</text>
+<rect x="293" y="452.0" width="20" height="48.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="327" y="479.0" width="20" height="21.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="337" y="518" class="axis" text-anchor="middle" >11</text>
+<rect x="361" y="476.0" width="20" height="24.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="395" y="485.0" width="20" height="15.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="405" y="518" class="axis" text-anchor="middle" >13</text>
+<rect x="429" y="482.0" width="20" height="18.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="463" y="480.5" width="20" height="19.5" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="473" y="518" class="axis" text-anchor="middle" >15</text>
+<rect x="497" y="486.5" width="20" height="13.5" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="531" y="488.0" width="20" height="12.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="541" y="518" class="axis" text-anchor="middle" >17</text>
+<rect x="565" y="491.0" width="20" height="9.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="599" y="497.0" width="20" height="3.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="609" y="518" class="axis" text-anchor="middle" >19</text>
+<rect x="633" y="488.0" width="20" height="12.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="667" y="491.0" width="20" height="9.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="677" y="518" class="axis" text-anchor="middle" >21</text>
+<rect x="701" y="497.0" width="20" height="3.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="735" y="497.0" width="20" height="3.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="745" y="518" class="axis" text-anchor="middle" >23</text>
+<rect x="769" y="495.5" width="20" height="4.5" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="803" y="497.0" width="20" height="3.0" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="813" y="518" class="axis" text-anchor="middle" >25</text>
+<rect x="837" y="497.0" width="20" height="3.0" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="871" y="498.5" width="20" height="1.5" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="881" y="518" class="axis" text-anchor="middle" >27</text>
+<rect x="905" y="498.5" width="20" height="1.5" rx="2" fill="#1f6fb2" stroke="none" />
+<rect x="939" y="498.5" width="20" height="1.5" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="949" y="518" class="axis" text-anchor="middle" >49</text>
+<rect x="973" y="498.5" width="20" height="1.5" rx="2" fill="#1f6fb2" stroke="none" />
+<line x1="55" y1="500" x2="1007" y2="500" stroke="#d8e0e7" stroke-width="1.5" />
+</svg>

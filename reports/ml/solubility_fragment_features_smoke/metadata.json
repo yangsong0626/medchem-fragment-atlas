@@ -1,0 +1,44 @@
+{
+  "task": "solubility_aqsoldb",
+  "target": "AqSolDB log mol/L",
+  "split": {
+    "train": 6938,
+    "test": 1967,
+    "valid_not_used": 986
+  },
+  "fingerprint": {
+    "type": "Morgan",
+    "radius": 2,
+    "n_bits": 2048
+  },
+  "model": {
+    "type": "RandomForestRegressor",
+    "n_estimators": 50,
+    "random_state": 13,
+    "n_jobs": -1,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "fragment_features": [
+    "frag_count_total",
+    "frag_count_covered",
+    "frag_coverage_fraction",
+    "frag_sol_median_mean",
+    "frag_sol_median_median",
+    "frag_sol_median_min",
+    "frag_sol_median_max",
+    "frag_sol_std_mean",
+    "frag_sol_std_max",
+    "frag_sol_parent_count_sum",
+    "frag_sol_parent_count_max"
+  ],
+  "fragment_stats_training_rows": 4613,
+  "test_fragment_coverage_mean": 0.5192009210586548,
+  "paired_prediction_permutation_p_values": {
+    "rmse": 0.047619047619047616,
+    "mae": 0.047619047619047616,
+    "r2": 0.047619047619047616,
+    "spearman": 0.047619047619047616
+  },
+  "leakage_control": "Fragment median/std features are computed from training-set molecules only; test labels are never used to build fragment statistics."
+}

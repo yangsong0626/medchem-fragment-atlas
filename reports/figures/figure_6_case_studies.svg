@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+  <rect width="1400" height="620" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 6. Fragment Case Studies</text>
+<rect x="55" y="105" width="245" height="390" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="73" y="139" class="small" text-anchor="start" >[*]c1ccccc1</text>
+<text x="73" y="183" class="axis" text-anchor="start" >Parents</text>
+<text x="282" y="183" class="label" text-anchor="end" font-weight="700">37</text>
+<text x="73" y="225" class="axis" text-anchor="start" >ADMET rows</text>
+<text x="282" y="225" class="label" text-anchor="end" font-weight="700">337</text>
+<text x="73" y="267" class="axis" text-anchor="start" >Endpoints</text>
+<text x="282" y="267" class="label" text-anchor="end" font-weight="700">91</text>
+<text x="73" y="309" class="axis" text-anchor="start" >MW median</text>
+<text x="282" y="309" class="label" text-anchor="end" font-weight="700">334.4</text>
+<text x="73" y="351" class="axis" text-anchor="start" >LogP median</text>
+<text x="282" y="351" class="label" text-anchor="end" font-weight="700">2.40</text>
+<text x="73" y="393" class="axis" text-anchor="start" >QED median</text>
+<text x="282" y="393" class="label" text-anchor="end" font-weight="700">0.65</text>
+<rect x="73" y="450" width="195" height="18" rx="3" fill="#0f766e" stroke="none" />
+<text x="73" y="490" class="small" text-anchor="start" >ADMET coverage</text>
+<rect x="322" y="105" width="245" height="390" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="340" y="139" class="small" text-anchor="start" >[*]C1CC1</text>
+<text x="340" y="183" class="axis" text-anchor="start" >Parents</text>
+<text x="549" y="183" class="label" text-anchor="end" font-weight="700">8</text>
+<text x="340" y="225" class="axis" text-anchor="start" >ADMET rows</text>
+<text x="549" y="225" class="label" text-anchor="end" font-weight="700">61</text>
+<text x="340" y="267" class="axis" text-anchor="start" >Endpoints</text>
+<text x="549" y="267" class="label" text-anchor="end" font-weight="700">27</text>
+<text x="340" y="309" class="axis" text-anchor="start" >MW median</text>
+<text x="549" y="309" class="label" text-anchor="end" font-weight="700">350.4</text>
+<text x="340" y="351" class="axis" text-anchor="start" >LogP median</text>
+<text x="549" y="351" class="label" text-anchor="end" font-weight="700">2.13</text>
+<text x="340" y="393" class="axis" text-anchor="start" >QED median</text>
+<text x="549" y="393" class="label" text-anchor="end" font-weight="700">0.85</text>
+<rect x="340" y="450" width="35.296735905044514" height="18" rx="3" fill="#0f766e" stroke="none" />
+<text x="340" y="490" class="small" text-anchor="start" >ADMET coverage</text>
+<rect x="589" y="105" width="245" height="390" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="607" y="139" class="small" text-anchor="start" >[*]N1CCN([*])CC1</text>
+<text x="607" y="183" class="axis" text-anchor="start" >Parents</text>
+<text x="816" y="183" class="label" text-anchor="end" font-weight="700">5</text>
+<text x="607" y="225" class="axis" text-anchor="start" >ADMET rows</text>
+<text x="816" y="225" class="label" text-anchor="end" font-weight="700">26</text>
+<text x="607" y="267" class="axis" text-anchor="start" >Endpoints</text>
+<text x="816" y="267" class="label" text-anchor="end" font-weight="700">15</text>
+<text x="607" y="309" class="axis" text-anchor="start" >MW median</text>
+<text x="816" y="309" class="label" text-anchor="end" font-weight="700">387.4</text>
+<text x="607" y="351" class="axis" text-anchor="start" >LogP median</text>
+<text x="816" y="351" class="label" text-anchor="end" font-weight="700">2.09</text>
+<text x="607" y="393" class="axis" text-anchor="start" >QED median</text>
+<text x="816" y="393" class="label" text-anchor="end" font-weight="700">0.73</text>
+<rect x="607" y="450" width="15.044510385756677" height="18" rx="3" fill="#0f766e" stroke="none" />
+<text x="607" y="490" class="small" text-anchor="start" >ADMET coverage</text>
+<rect x="856" y="105" width="245" height="390" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="874" y="139" class="small" text-anchor="start" >[*]S(C)(=O)=O</text>
+<text x="874" y="183" class="axis" text-anchor="start" >Parents</text>
+<text x="1083" y="183" class="label" text-anchor="end" font-weight="700">5</text>
+<text x="874" y="225" class="axis" text-anchor="start" >ADMET rows</text>
+<text x="1083" y="225" class="label" text-anchor="end" font-weight="700">54</text>
+<text x="874" y="267" class="axis" text-anchor="start" >Endpoints</text>
+<text x="1083" y="267" class="label" text-anchor="end" font-weight="700">21</text>
+<text x="874" y="309" class="axis" text-anchor="start" >MW median</text>
+<text x="1083" y="309" class="label" text-anchor="end" font-weight="700">393.5</text>
+<text x="874" y="351" class="axis" text-anchor="start" >LogP median</text>
+<text x="1083" y="351" class="label" text-anchor="end" font-weight="700">2.72</text>
+<text x="874" y="393" class="axis" text-anchor="start" >QED median</text>
+<text x="1083" y="393" class="label" text-anchor="end" font-weight="700">0.53</text>
+<rect x="874" y="450" width="31.246290801186944" height="18" rx="3" fill="#0f766e" stroke="none" />
+<text x="874" y="490" class="small" text-anchor="start" >ADMET coverage</text>
+<rect x="1123" y="105" width="245" height="390" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="1141" y="139" class="small" text-anchor="start" >[*]C(=O)O</text>
+<text x="1141" y="183" class="axis" text-anchor="start" >Parents</text>
+<text x="1350" y="183" class="label" text-anchor="end" font-weight="700">29</text>
+<text x="1141" y="225" class="axis" text-anchor="start" >ADMET rows</text>
+<text x="1350" y="225" class="label" text-anchor="end" font-weight="700">219</text>
+<text x="1141" y="267" class="axis" text-anchor="start" >Endpoints</text>
+<text x="1350" y="267" class="label" text-anchor="end" font-weight="700">90</text>
+<text x="1141" y="309" class="axis" text-anchor="start" >MW median</text>
+<text x="1350" y="309" class="label" text-anchor="end" font-weight="700">351.4</text>
+<text x="1141" y="351" class="axis" text-anchor="start" >LogP median</text>
+<text x="1350" y="351" class="label" text-anchor="end" font-weight="700">1.54</text>
+<text x="1141" y="393" class="axis" text-anchor="start" >QED median</text>
+<text x="1350" y="393" class="label" text-anchor="end" font-weight="700">0.73</text>
+<rect x="1141" y="450" width="126.72106824925817" height="18" rx="3" fill="#0f766e" stroke="none" />
+<text x="1141" y="490" class="small" text-anchor="start" >ADMET coverage</text>
+<text x="55" y="560" class="subtitle" text-anchor="start" >Example fragment cards summarize structural motif frequency, descriptor context, and endpoint coverage for medicinal chemistry triage.</text>
+</svg>

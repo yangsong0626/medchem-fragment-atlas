@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+  <rect width="1500" height="900" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 3. Most Frequent BRICS Fragments</text>
+<text x="55" y="121" class="axis" text-anchor="start" >01</text>
+<text x="100" y="121" class="small" text-anchor="start" >[*]c1ccccc1</text>
+<rect x="470" y="100" width="880.0" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="1360.0" y="117" class="axis" text-anchor="start" >37 parents | 337 endpoints rows</text>
+<text x="55" y="155" class="axis" text-anchor="start" >02</text>
+<text x="100" y="155" class="small" text-anchor="start" >[*]C(=O)O</text>
+<rect x="470" y="134" width="689.7297297297297" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="1169.7297297297296" y="151" class="axis" text-anchor="start" >29 parents | 219 endpoints rows</text>
+<text x="55" y="189" class="axis" text-anchor="start" >03</text>
+<text x="100" y="189" class="small" text-anchor="start" >[*]c1ccc([*])cc1</text>
+<rect x="470" y="168" width="570.8108108108108" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="1050.8108108108108" y="185" class="axis" text-anchor="start" >24 parents | 270 endpoints rows</text>
+<text x="55" y="223" class="axis" text-anchor="start" >04</text>
+<text x="100" y="223" class="small" text-anchor="start" >[*]N(C)C</text>
+<rect x="470" y="202" width="356.7567567567568" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="836.7567567567568" y="219" class="axis" text-anchor="start" >15 parents | 155 endpoints rows</text>
+<text x="55" y="257" class="axis" text-anchor="start" >05</text>
+<text x="100" y="257" class="small" text-anchor="start" >[*]C(C)=O</text>
+<rect x="470" y="236" width="332.97297297297297" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="812.9729729729729" y="253" class="axis" text-anchor="start" >14 parents | 197 endpoints rows</text>
+<text x="55" y="291" class="axis" text-anchor="start" >06</text>
+<text x="100" y="291" class="small" text-anchor="start" >[*]C(C)C</text>
+<rect x="470" y="270" width="285.4054054054054" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="765.4054054054054" y="287" class="axis" text-anchor="start" >12 parents | 166 endpoints rows</text>
+<text x="55" y="325" class="axis" text-anchor="start" >07</text>
+<text x="100" y="325" class="small" text-anchor="start" >[*]CC(O)C[*]</text>
+<rect x="470" y="304" width="237.83783783783784" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="717.8378378378378" y="321" class="axis" text-anchor="start" >10 parents | 175 endpoints rows</text>
+<text x="55" y="359" class="axis" text-anchor="start" >08</text>
+<text x="100" y="359" class="small" text-anchor="start" >[*]S(=O)(=O)c1ccc(N)cc1</text>
+<rect x="470" y="338" width="214.05405405405406" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="694.0540540540541" y="355" class="axis" text-anchor="start" >9 parents | 101 endpoints rows</text>
+<text x="55" y="393" class="axis" text-anchor="start" >09</text>
+<text x="100" y="393" class="small" text-anchor="start" >[*]CCC[*]</text>
+<rect x="470" y="372" width="214.05405405405406" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="694.0540540540541" y="389" class="axis" text-anchor="start" >9 parents | 114 endpoints rows</text>
+<text x="55" y="427" class="axis" text-anchor="start" >10</text>
+<text x="100" y="427" class="small" text-anchor="start" >[*]c1ccc(Cl)cc1</text>
+<rect x="470" y="406" width="190.27027027027026" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="670.2702702702702" y="423" class="axis" text-anchor="start" >8 parents | 83 endpoints rows</text>
+<text x="55" y="461" class="axis" text-anchor="start" >11</text>
+<text x="100" y="461" class="small" text-anchor="start" >[*]C1CC1</text>
+<rect x="470" y="440" width="190.27027027027026" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="670.2702702702702" y="457" class="axis" text-anchor="start" >8 parents | 61 endpoints rows</text>
+<text x="55" y="495" class="axis" text-anchor="start" >12</text>
+<text x="100" y="495" class="small" text-anchor="start" >[*]C1([*])C(=O)NC(=O)NC1=O</text>
+<rect x="470" y="474" width="166.48648648648648" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="646.4864864864865" y="491" class="axis" text-anchor="start" >7 parents | 68 endpoints rows</text>
+<text x="55" y="529" class="axis" text-anchor="start" >13</text>
+<text x="100" y="529" class="small" text-anchor="start" >[*]N1CCC([*])CC1</text>
+<rect x="470" y="508" width="166.48648648648648" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="646.4864864864865" y="525" class="axis" text-anchor="start" >7 parents | 53 endpoints rows</text>
+<text x="55" y="563" class="axis" text-anchor="start" >14</text>
+<text x="100" y="563" class="small" text-anchor="start" >[*]c1ccccn1</text>
+<rect x="470" y="542" width="142.7027027027027" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="622.7027027027027" y="559" class="axis" text-anchor="start" >6 parents | 78 endpoints rows</text>
+<text x="55" y="597" class="axis" text-anchor="start" >15</text>
+<text x="100" y="597" class="small" text-anchor="start" >[*]c1ccc(O)cc1</text>
+<rect x="470" y="576" width="142.7027027027027" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="622.7027027027027" y="593" class="axis" text-anchor="start" >6 parents | 66 endpoints rows</text>
+<text x="55" y="631" class="axis" text-anchor="start" >16</text>
+<text x="100" y="631" class="small" text-anchor="start" >[*]C(C)(C)C</text>
+<rect x="470" y="610" width="142.7027027027027" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="622.7027027027027" y="627" class="axis" text-anchor="start" >6 parents | 56 endpoints rows</text>
+<text x="55" y="665" class="axis" text-anchor="start" >17</text>
+<text x="100" y="665" class="small" text-anchor="start" >[*]C(F)(F)F</text>
+<rect x="470" y="644" width="142.7027027027027" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="622.7027027027027" y="661" class="axis" text-anchor="start" >6 parents | 20 endpoints rows</text>
+<text x="55" y="699" class="axis" text-anchor="start" >18</text>
+<text x="100" y="699" class="small" text-anchor="start" >[*]CC=C</text>
+<rect x="470" y="678" width="142.7027027027027" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="622.7027027027027" y="695" class="axis" text-anchor="start" >6 parents | 78 endpoints rows</text>
+<text x="55" y="733" class="axis" text-anchor="start" >19</text>
+<text x="100" y="733" class="small" text-anchor="start" >[*]N1CCN([*])CC1</text>
+<rect x="470" y="712" width="118.91891891891892" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="598.918918918919" y="729" class="axis" text-anchor="start" >5 parents | 26 endpoints rows</text>
+<text x="55" y="767" class="axis" text-anchor="start" >20</text>
+<text x="100" y="767" class="small" text-anchor="start" >[*]C(C)C(=O)O</text>
+<rect x="470" y="746" width="118.91891891891892" height="22" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="598.918918918919" y="763" class="axis" text-anchor="start" >5 parents | 55 endpoints rows</text>
+<text x="55" y="835" class="subtitle" text-anchor="start" >Fragments are ranked by unique parent molecule count. BRICS attachment labels are normalized for display.</text>
+</svg>

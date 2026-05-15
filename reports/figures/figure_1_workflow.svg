@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520">
+  <rect width="1500" height="520" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="50" y="58" class="title" text-anchor="start" >Figure 1. MedChem Fragment Atlas Workflow</text>
+<rect x="55" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="152.5" y="206" class="label" text-anchor="middle" font-weight="700">ChEMBL molecules</text>
+<text x="152.5" y="236" class="small" text-anchor="middle" >SMILES, properties, assays</text>
+<line x1="258" y1="217.5" x2="287" y2="217.5" stroke="#0f766e" stroke-width="2" />
+<path d="M287,217.5 l-9,-6 v12 z" fill="#0f766e"/>
+<rect x="295" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="392.5" y="206" class="label" text-anchor="middle" font-weight="700">RDKit validation</text>
+<text x="392.5" y="236" class="small" text-anchor="middle" >invalid molecules logged</text>
+<line x1="498" y1="217.5" x2="527" y2="217.5" stroke="#0f766e" stroke-width="2" />
+<path d="M527,217.5 l-9,-6 v12 z" fill="#0f766e"/>
+<rect x="535" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="632.5" y="206" class="label" text-anchor="middle" font-weight="700">BRICS decomposition</text>
+<text x="632.5" y="236" class="small" text-anchor="middle" >dummy atoms retained</text>
+<line x1="738" y1="217.5" x2="767" y2="217.5" stroke="#0f766e" stroke-width="2" />
+<path d="M767,217.5 l-9,-6 v12 z" fill="#0f766e"/>
+<rect x="775" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="872.5" y="206" class="label" text-anchor="middle" font-weight="700">Canonical fragments</text>
+<text x="872.5" y="236" class="small" text-anchor="middle" >fragment_smiles + display_smiles</text>
+<line x1="978" y1="217.5" x2="1007" y2="217.5" stroke="#0f766e" stroke-width="2" />
+<path d="M1007,217.5 l-9,-6 v12 z" fill="#0f766e"/>
+<rect x="1015" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="1112.5" y="206" class="label" text-anchor="middle" font-weight="700">Parent aggregation</text>
+<text x="1112.5" y="236" class="small" text-anchor="middle" >descriptors + endpoint stats</text>
+<line x1="1218" y1="217.5" x2="1247" y2="217.5" stroke="#0f766e" stroke-width="2" />
+<path d="M1247,217.5 l-9,-6 v12 z" fill="#0f766e"/>
+<rect x="1255" y="160" width="195" height="115" rx="8" fill="#f7f9fb" stroke="#d8e0e7" />
+<text x="1352.5" y="206" class="label" text-anchor="middle" font-weight="700">DuckDB/API/UI</text>
+<text x="1352.5" y="236" class="small" text-anchor="middle" >search, SVGs, heatmaps</text>
+<text x="55" y="380" class="subtitle" text-anchor="start" >Design principle: all physicochemical and ADMET values are aggregated from parent molecules containing the fragment, not measured or predicted properties of isolated fragments.</text>
+</svg>

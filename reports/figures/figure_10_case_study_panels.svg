@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <rect width="1500" height="760" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 10. Publication-Style Fragment Case Studies</text>
+<rect x="55" y="115" width="450" height="245" rx="8" fill="#d8e9f7" stroke="#d8e0e7" />
+<text x="73" y="149" class="label" text-anchor="start" font-weight="700">[*]N1CCC([*])CC1</text>
+<text x="73" y="177" class="small" text-anchor="start" >CL | clearance_microsome_az</text>
+<text x="73" y="213" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="487" y="213" class="small" text-anchor="end" font-weight="700">155</text>
+<text x="73" y="239" class="axis" text-anchor="start" >Case median</text>
+<text x="487" y="239" class="small" text-anchor="end" font-weight="700">6.00</text>
+<text x="73" y="265" class="axis" text-anchor="start" >Control median</text>
+<text x="487" y="265" class="small" text-anchor="end" font-weight="700">32.0</text>
+<text x="73" y="291" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="487" y="291" class="small" text-anchor="end" font-weight="700">17.4</text>
+<text x="73" y="317" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="487" y="317" class="small" text-anchor="end" font-weight="700">3.74 to 8.00</text>
+<rect x="533" y="115" width="450" height="245" rx="8" fill="#d8e9f7" stroke="#d8e0e7" />
+<text x="551" y="149" class="label" text-anchor="start" font-weight="700">[*]c1ccc([*])cc1</text>
+<text x="551" y="177" class="small" text-anchor="start" >CL | clearance_hepatocyte_az</text>
+<text x="551" y="213" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="965" y="213" class="small" text-anchor="end" font-weight="700">132</text>
+<text x="551" y="239" class="axis" text-anchor="start" >Case median</text>
+<text x="965" y="239" class="small" text-anchor="end" font-weight="700">15.7</text>
+<text x="551" y="265" class="axis" text-anchor="start" >Control median</text>
+<text x="965" y="265" class="small" text-anchor="end" font-weight="700">27.0</text>
+<text x="551" y="291" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="965" y="291" class="small" text-anchor="end" font-weight="700">6.43</text>
+<text x="551" y="317" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="965" y="317" class="small" text-anchor="end" font-weight="700">12.9 to 19.5</text>
+<rect x="1011" y="115" width="450" height="245" rx="8" fill="#d8e9f7" stroke="#d8e0e7" />
+<text x="1029" y="149" class="label" text-anchor="start" font-weight="700">[*]N1CCN([*])C(=O)C1</text>
+<text x="1029" y="177" class="small" text-anchor="start" >hERG | herg_karim</text>
+<text x="1029" y="213" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="1443" y="213" class="small" text-anchor="end" font-weight="700">131</text>
+<text x="1029" y="239" class="axis" text-anchor="start" >Case median</text>
+<text x="1443" y="239" class="small" text-anchor="end" font-weight="700">1.00</text>
+<text x="1029" y="265" class="axis" text-anchor="start" >Control median</text>
+<text x="1443" y="265" class="small" text-anchor="end" font-weight="700">0.00</text>
+<text x="1029" y="291" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="1443" y="291" class="small" text-anchor="end" font-weight="700">1.00</text>
+<text x="1029" y="317" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="1443" y="317" class="small" text-anchor="end" font-weight="700">1.00 to 1.00</text>
+<rect x="55" y="388" width="450" height="245" rx="8" fill="#d8e9f7" stroke="#d8e0e7" />
+<text x="73" y="422" class="label" text-anchor="start" font-weight="700">[*]N(C)C</text>
+<text x="73" y="450" class="small" text-anchor="start" >Half-life | half_life_obach</text>
+<text x="73" y="486" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="487" y="486" class="small" text-anchor="end" font-weight="700">53</text>
+<text x="73" y="512" class="axis" text-anchor="start" >Case median</text>
+<text x="487" y="512" class="small" text-anchor="end" font-weight="700">9.30</text>
+<text x="73" y="538" class="axis" text-anchor="start" >Control median</text>
+<text x="487" y="538" class="small" text-anchor="end" font-weight="700">7.00</text>
+<text x="73" y="564" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="487" y="564" class="small" text-anchor="end" font-weight="700">1.00</text>
+<text x="73" y="590" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="487" y="590" class="small" text-anchor="end" font-weight="700">5.00 to 14.0</text>
+<rect x="533" y="388" width="450" height="245" rx="8" fill="#d8e9f7" stroke="#d8e0e7" />
+<text x="551" y="422" class="label" text-anchor="start" font-weight="700">[*]C(F)(F)F</text>
+<text x="551" y="450" class="small" text-anchor="start" >LD50 | ld50_zhu</text>
+<text x="551" y="486" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="965" y="486" class="small" text-anchor="end" font-weight="700">229</text>
+<text x="551" y="512" class="axis" text-anchor="start" >Case median</text>
+<text x="965" y="512" class="small" text-anchor="end" font-weight="700">3.66</text>
+<text x="551" y="538" class="axis" text-anchor="start" >Control median</text>
+<text x="965" y="538" class="small" text-anchor="end" font-weight="700">2.49</text>
+<text x="551" y="564" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="965" y="564" class="small" text-anchor="end" font-weight="700">0.91</text>
+<text x="551" y="590" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="965" y="590" class="small" text-anchor="end" font-weight="700">3.52 to 3.86</text>
+<rect x="1011" y="388" width="450" height="245" rx="8" fill="#f7d9d7" stroke="#d8e0e7" />
+<text x="1029" y="422" class="label" text-anchor="start" font-weight="700">[*]C(=O)C[*]</text>
+<text x="1029" y="450" class="small" text-anchor="start" >CL | clearance_hepatocyte_az</text>
+<text x="1029" y="486" class="axis" text-anchor="start" >Matched pairs</text>
+<text x="1443" y="486" class="small" text-anchor="end" font-weight="700">48</text>
+<text x="1029" y="512" class="axis" text-anchor="start" >Case median</text>
+<text x="1443" y="512" class="small" text-anchor="end" font-weight="700">70.6</text>
+<text x="1029" y="538" class="axis" text-anchor="start" >Control median</text>
+<text x="1443" y="538" class="small" text-anchor="end" font-weight="700">18.0</text>
+<text x="1029" y="564" class="axis" text-anchor="start" >Favorable delta</text>
+<text x="1443" y="564" class="small" text-anchor="end" font-weight="700">-40.9</text>
+<text x="1029" y="590" class="axis" text-anchor="start" >Bootstrap CI</text>
+<text x="1443" y="590" class="small" text-anchor="end" font-weight="700">57.6 to 95.5</text>
+<text x="55" y="710" class="subtitle" text-anchor="start" >Cards combine matched-context effects with bootstrap uncertainty. They are intended as medicinal chemistry hypotheses, not causal fragment liabilities.</text>
+</svg>

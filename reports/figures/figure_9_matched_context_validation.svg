@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+  <rect width="1500" height="760" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 9. Matched-Context Fragment ADMET Associations</text>
+<line x1="760" y1="105" x2="760" y2="659" stroke="#d8e0e7" stroke-width="1.5" />
+<text x="55" y="136" class="small" text-anchor="start" >[*]C(=O)C[*] | CL</text>
+<rect x="455.0" y="120" width="305.0" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="447.0" y="135" class="axis" text-anchor="end" >-40.9 | pairs=48</text>
+<text x="55" y="170" class="small" text-anchor="start" >[*]N1CCN([*])CC1 | CL</text>
+<rect x="649.8093375702762" y="154" width="110.1906624297238" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="641.8093375702762" y="169" class="axis" text-anchor="end" >-14.8 | pairs=41</text>
+<text x="55" y="204" class="small" text-anchor="start" >[*]c1ccccc1 | CL</text>
+<rect x="680.6373747250061" y="188" width="79.36262527499389" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="672.6373747250061" y="203" class="axis" text-anchor="end" >-10.6 | pairs=228</text>
+<text x="55" y="238" class="small" text-anchor="start" >[*]c1cccc([*])c1 | CL</text>
+<rect x="735.13627474945" y="222" width="24.86372525054999" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="727.13627474945" y="237" class="axis" text-anchor="end" >-3.33 | pairs=64</text>
+<text x="55" y="272" class="small" text-anchor="start" >[*]c1cccc([*])c1 | CL</text>
+<rect x="744.41823515033" y="256" width="15.581764849670035" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="736.41823515033" y="271" class="axis" text-anchor="end" >-2.09 | pairs=61</text>
+<text x="55" y="306" class="small" text-anchor="start" >[*]c1ccccc1 | CL</text>
+<rect x="746.2075287215839" y="290" width="13.792471278416038" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="738.2075287215839" y="305" class="axis" text-anchor="end" >-1.85 | pairs=272</text>
+<text x="55" y="340" class="small" text-anchor="start" >[*]S(=O)(=O)c1ccc(C)cc1 | CL</text>
+<rect x="748.0713761916402" y="324" width="11.928623808359816" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="740.0713761916402" y="339" class="axis" text-anchor="end" >-1.60 | pairs=46</text>
+<text x="55" y="374" class="small" text-anchor="start" >[*]c1ccc(O)c2[nH]c(=O)sc12 | CL</text>
+<rect x="748.8169151796627" y="358" width="11.183084820337328" height="20" rx="3" fill="#c43c39" stroke="none" />
+<text x="740.8169151796627" y="373" class="axis" text-anchor="end" >-1.50 | pairs=33</text>
+<text x="55" y="408" class="small" text-anchor="start" >[*]c1ccc([*])c([*])c1 | CL</text>
+<rect x="760" y="392" width="22.403446590075777" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="790.4034465900758" y="407" class="axis" text-anchor="start" >+3.00 | pairs=68</text>
+<text x="55" y="442" class="small" text-anchor="start" >[*]C(=O)C[*] | CL</text>
+<rect x="760" y="426" width="25.161940845758984" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="793.161940845759" y="441" class="axis" text-anchor="start" >+3.38 | pairs=62</text>
+<text x="55" y="476" class="small" text-anchor="start" >[*]c1ccc(Cl)c(Cl)c1 | CL</text>
+<rect x="760" y="460" width="41.48924468345148" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="809.4892446834515" y="475" class="axis" text-anchor="start" >+5.57 | pairs=78</text>
+<text x="55" y="510" class="small" text-anchor="start" >[*]C(F)(F)F | CL</text>
+<rect x="760" y="494" width="43.83769249572233" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="811.8376924957223" y="509" class="axis" text-anchor="start" >+5.88 | pairs=50</text>
+<text x="55" y="544" class="small" text-anchor="start" >[*]c1ccc(F)cc1 | CL</text>
+<rect x="760" y="528" width="44.4341236861403" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="812.4341236861403" y="543" class="axis" text-anchor="start" >+5.96 | pairs=43</text>
+<text x="55" y="578" class="small" text-anchor="start" >[*]c1ccc([*])cc1 | CL</text>
+<rect x="760" y="562" width="47.938156929846" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="815.938156929846" y="577" class="axis" text-anchor="start" >+6.43 | pairs=132</text>
+<text x="55" y="612" class="small" text-anchor="start" >[*]N1CCC([*])CC1 | CL</text>
+<rect x="760" y="596" width="108.88596920068444" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="876.8859692006845" y="611" class="axis" text-anchor="start" >+14.6 | pairs=54</text>
+<text x="55" y="646" class="small" text-anchor="start" >[*]N1CCC([*])CC1 | CL</text>
+<rect x="760" y="630" width="129.8728917135175" height="20" rx="3" fill="#1f6fb2" stroke="none" />
+<text x="897.8728917135174" y="645" class="axis" text-anchor="start" >+17.4 | pairs=155</text>
+<rect x="1060" y="63" width="34" height="14" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="1100" y="75" class="axis" text-anchor="start" >more favorable vs matched controls</text>
+<rect x="55" y="690" width="34" height="14" rx="2" fill="#c43c39" stroke="none" />
+<text x="95" y="702" class="subtitle" text-anchor="start" >less favorable vs matched controls; deltas are adjusted to endpoint directionality.</text>
+</svg>

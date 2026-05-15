@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="760" viewBox="0 0 1450 760">
+  <rect width="1450" height="760" fill="white"/>
+  <style>
+    text { font-family: Inter, Arial, sans-serif; fill: #17202a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .subtitle { font-size: 13px; fill: #64748b; }
+    .axis { font-size: 11px; fill: #64748b; }
+    .label { font-size: 12px; }
+    .small { font-size: 10px; fill: #64748b; }
+  </style>
+  <text x="55" y="55" class="title" text-anchor="start" >Figure 5. Clean TDC ADMET Endpoint Heatmap</text>
+<text x="452.5" y="97" class="axis" text-anchor="middle" >CL</text>
+<text x="597.5" y="97" class="axis" text-anchor="middle" >Papp</text>
+<text x="742.5" y="97" class="axis" text-anchor="middle" >Absorption</text>
+<text x="887.5" y="97" class="axis" text-anchor="middle" >Solubility</text>
+<text x="1032.5" y="97" class="axis" text-anchor="middle" >hERG</text>
+<text x="55" y="139" class="small" text-anchor="start" >[*]c1ccccc1</text>
+<rect x="380" y="115" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="139" class="small" text-anchor="middle" fill="white">20.7</text>
+<rect x="525" y="115" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="139" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="115" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="139" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="115" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="139" class="small" text-anchor="middle" fill="white">-3.0</text>
+<rect x="960" y="115" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="139" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="177" class="small" text-anchor="start" >[*]c1ccc([*])cc1</text>
+<rect x="380" y="153" width="141" height="34" rx="0" fill="#eda09b" stroke="none" />
+<text x="452.5" y="177" class="small" text-anchor="middle" >15.7</text>
+<rect x="525" y="153" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="177" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="153" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="177" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="153" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="177" class="small" text-anchor="middle" fill="white">-4.0</text>
+<rect x="960" y="153" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="177" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="215" class="small" text-anchor="start" >[*]C(F)(F)F</text>
+<rect x="380" y="191" width="141" height="34" rx="0" fill="#1f6fb2" stroke="none" />
+<text x="452.5" y="215" class="small" text-anchor="middle" fill="white">6.0</text>
+<rect x="525" y="191" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="215" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="191" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="215" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="191" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="215" class="small" text-anchor="middle" fill="white">-4.5</text>
+<rect x="960" y="191" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="215" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="253" class="small" text-anchor="start" >[*]N1CCC([*])CC1</text>
+<rect x="380" y="229" width="141" height="34" rx="0" fill="#1f6fb2" stroke="none" />
+<text x="452.5" y="253" class="small" text-anchor="middle" fill="white">6.0</text>
+<rect x="525" y="229" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="253" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="229" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="253" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="229" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="253" class="small" text-anchor="middle" fill="white">-4.0</text>
+<rect x="960" y="229" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="253" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="291" class="small" text-anchor="start" >[*]N1CCN([*])CC1</text>
+<rect x="380" y="267" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="291" class="small" text-anchor="middle" fill="white">22.8</text>
+<rect x="525" y="267" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="291" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="267" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="291" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="267" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="291" class="small" text-anchor="middle" fill="white">-4.2</text>
+<rect x="960" y="267" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="291" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="329" class="small" text-anchor="start" >[*]C(=O)O</text>
+<rect x="380" y="305" width="141" height="34" rx="0" fill="#8dc1e8" stroke="none" />
+<text x="452.5" y="329" class="small" text-anchor="middle" >12.5</text>
+<rect x="525" y="305" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="329" class="small" text-anchor="middle" fill="white">-5.2</text>
+<rect x="670" y="305" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="329" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="305" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="329" class="small" text-anchor="middle" fill="white">-2.4</text>
+<rect x="960" y="305" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="329" class="small" text-anchor="middle" fill="white">1.0</text>
+<text x="55" y="367" class="small" text-anchor="start" >[*]c1cccc([*])c1</text>
+<rect x="380" y="343" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="367" class="small" text-anchor="middle" fill="white">19.0</text>
+<rect x="525" y="343" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="367" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="343" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="367" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="343" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="367" class="small" text-anchor="middle" fill="white">-4.5</text>
+<rect x="960" y="343" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="367" class="small" text-anchor="middle" fill="white">1.0</text>
+<text x="55" y="405" class="small" text-anchor="start" >[*]N(C)C</text>
+<rect x="380" y="381" width="141" height="34" rx="0" fill="#8dc1e8" stroke="none" />
+<text x="452.5" y="405" class="small" text-anchor="middle" >10.8</text>
+<rect x="525" y="381" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="405" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="381" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="405" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="381" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="405" class="small" text-anchor="middle" fill="white">-2.5</text>
+<rect x="960" y="381" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="405" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="443" class="small" text-anchor="start" >[*]C(C)=O</text>
+<rect x="380" y="419" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="443" class="small" text-anchor="middle" fill="white">28.0</text>
+<rect x="525" y="419" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="443" class="small" text-anchor="middle" fill="white">-5.0</text>
+<rect x="670" y="419" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="443" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="419" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="443" class="small" text-anchor="middle" fill="white">-2.5</text>
+<rect x="960" y="419" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="443" class="small" text-anchor="middle" fill="white">1.0</text>
+<text x="55" y="481" class="small" text-anchor="start" >[*]CCC[*]</text>
+<rect x="380" y="457" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="481" class="small" text-anchor="middle" fill="white">30.0</text>
+<rect x="525" y="457" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="481" class="small" text-anchor="middle" fill="white">-5.2</text>
+<rect x="670" y="457" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="481" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="457" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="481" class="small" text-anchor="middle" fill="white">-3.5</text>
+<rect x="960" y="457" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="481" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="519" class="small" text-anchor="start" >[*]c1ccc(Cl)cc1</text>
+<rect x="380" y="495" width="141" height="34" rx="0" fill="#1f6fb2" stroke="none" />
+<text x="452.5" y="519" class="small" text-anchor="middle" fill="white">3.0</text>
+<rect x="525" y="495" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="519" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="495" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="519" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="495" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="519" class="small" text-anchor="middle" fill="white">-4.9</text>
+<rect x="960" y="495" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="519" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="557" class="small" text-anchor="start" >[*]c1ccc(F)cc1</text>
+<rect x="380" y="533" width="141" height="34" rx="0" fill="#1f6fb2" stroke="none" />
+<text x="452.5" y="557" class="small" text-anchor="middle" fill="white">5.2</text>
+<rect x="525" y="533" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="557" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="533" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="557" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="533" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="557" class="small" text-anchor="middle" fill="white">-3.7</text>
+<rect x="960" y="533" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="557" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="595" class="small" text-anchor="start" >[*]c1ccccc1[*]</text>
+<rect x="380" y="571" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="595" class="small" text-anchor="middle" fill="white">17.8</text>
+<rect x="525" y="571" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="595" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="571" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="595" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="571" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="595" class="small" text-anchor="middle" fill="white">-3.2</text>
+<rect x="960" y="571" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="595" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="633" class="small" text-anchor="start" >[*]c1ccc([*])c([*])c1</text>
+<rect x="380" y="609" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="633" class="small" text-anchor="middle" fill="white">26.8</text>
+<rect x="525" y="609" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="633" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="609" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="633" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="609" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="633" class="small" text-anchor="middle" fill="white">-3.8</text>
+<rect x="960" y="609" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="633" class="small" text-anchor="middle" fill="white">0.0</text>
+<text x="55" y="671" class="small" text-anchor="start" >[*]C(=O)C[*]</text>
+<rect x="380" y="647" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="671" class="small" text-anchor="middle" fill="white">70.6</text>
+<rect x="525" y="647" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="671" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="647" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="671" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="647" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="671" class="small" text-anchor="middle" fill="white">-2.4</text>
+<rect x="960" y="647" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="671" class="small" text-anchor="middle" fill="white">1.0</text>
+<text x="55" y="709" class="small" text-anchor="start" >[*]C(N)=O</text>
+<rect x="380" y="685" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="452.5" y="709" class="small" text-anchor="middle" fill="white">21.0</text>
+<rect x="525" y="685" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="597.5" y="709" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="670" y="685" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="742.5" y="709" class="small" text-anchor="middle" fill="white">1.0</text>
+<rect x="815" y="685" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="887.5" y="709" class="small" text-anchor="middle" fill="white">-2.1</text>
+<rect x="960" y="685" width="141" height="34" rx="0" fill="#c43c39" stroke="none" />
+<text x="1032.5" y="709" class="small" text-anchor="middle" fill="white">0.0</text>
+<rect x="1040" y="63" width="34" height="14" rx="2" fill="#c43c39" stroke="none" />
+<text x="1080" y="75" class="axis" text-anchor="start" >less favorable</text>
+<rect x="1190" y="63" width="34" height="14" rx="2" fill="#1f6fb2" stroke="none" />
+<text x="1230" y="75" class="axis" text-anchor="start" >more favorable</text>
+<text x="55" y="715" class="subtitle" text-anchor="start" >Median clean TDC values are mapped onto BRICS fragments. Color uses endpoint-specific directionality; gray indicates no matched clean TDC endpoint.</text>
+</svg>
